@@ -24,7 +24,9 @@ crossorigin="anonymous"
         extend: {
           colors: {
             clifford: '#da373d',
-            'bike-primary': '#E76F51',
+            'primary': '#FF4240',
+            'secondary': '#FFFFFF99',
+            'border': '#13131833',
           }
         }
       }
@@ -37,51 +39,152 @@ crossorigin="anonymous"
   </style>
 <body class="font-manrope">
   <!-- header part start-->
-<header class=" lg:w-[1440px] mx-auto">
+<header class=" md:container md:mx-auto">
   <!-- nav bar start -->
   <nav>
     <div class="navbar bg-base-100">
-        <div class="flex-1">
-          <div class="dropdown">
-            <div ><a class="btn btn-ghost text-xl lg:text-4xl">Biker Zone</a></div>
-
-            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-            </div>
-            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow text-base bg-base-100 rounded-box w-52">
-              <li><a>Home</a></li>
-              <li><a>Shop</a></li>
-              <li><a>News</a></li>
-              <li><a>Contract</a></li>
-            </ul>
+      <div class="navbar-start">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
           </div>
-        </div>
-        <div class="navbar-center hidden lg:flex">
-          <ul class="menu text-base menu-horizontal px-1">
-            <li><a>Home</a></li>
-              <li><a>Shop</a></li>
-              <li><a>News</a></li>
-              <li><a>Contract</a></li>
+          <ul tabindex="0" class="menu text-base menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+            <li class="hover:text-primary hover:font-bold"><a>Home</a></li>
+            <li class="hover:text-primary hover:font-bold"><a>About</a></li>
+            <li class="hover:text-primary hover:font-bold"><a>Pages</a></li>
+            <li class="hover:text-primary hover:font-bold"><a>Blog</a></li>
+            <li class="hover:text-primary hover:font-bold"><a>Contact</a></li>
           </ul>
         </div>
-        <div class="">
-          <a class="btn  bg-bike-primary text-white hover:bg-gray-600 ">Login</a>
-        </div>
+        <a class="btn btn-ghost text-4xl font-extrabold"><p>Hockey<span class="text-primary">’</span>s</p></a>
       </div>
-    </nav>
-  <!-- nav bar end -->
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu text-base menu-horizontal px-1">
+          <li class="hover:text-primary hover:font-bold"><a>Home</a></li>
+          <li class="hover:text-primary hover:font-bold"><a>About</a></li>
+          <li class="hover:text-primary hover:font-bold"><a>Pages</a></li>
+          <li class="hover:text-primary hover:font-bold"><a>Blog</a></li>
+          <li class="hover:text-primary hover:font-bold"><a>Contact</a></li>
+          
+        </ul>
+        
+      </div>
+      
+      <div class="navbar-end flex gap-6 ">
+        <div class="text-white opacity-0 lg:opacity-100 lg:text-black"><i class="fa fa-magnifying-glass"></i></div> <a class="btn bg-primary text-xl font-bold text-white hover:bg-black">Get Ticket</a>
+      </div>
+    </div>
+  </nav> 
+    <!-- nav bar end -->
+     <!-- slider part start -->
+     <div class="carousel w-full lg:h-[550px] mt-8">
+      <!-- slide 1 -->
+      <div id="slide1" class="carousel-item relative w-full  gap-3">
+          <img src="Images/1.png" class="w-full rounded-2xl" alt="">
+        <div class="absolute flex gap-2  transform -translate-y-1/2 left-8 right-8 bottom-1">
+          <a href="#slide3" class="btn bg-black text-white btn-circle">❮</a> 
+          <a href="#slide2" class="btn bg-black text-white btn-circle">❯</a>
+        </div>
+          <!-- container -->
+          <div class="bg-black space-y-3 lg:space-y-6 text-white absolute lg:w-[502px] rounded-2xl p-8 -bottom-44 lg:bottom-8 lg:right-8">
+            <h1 class="text-2xl font-extrabold">Meet all the heroes from the field</h1>
+            <p class="font-medium text-secondary">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+          </div>
+      </div> 
+      <!-- slide 2 -->
+      <div id="slide2" class="carousel-item relative w-full">
+          <img src="Images/hocky.jpg" class="w-full rounded-2xl" alt="">
+        <div class="absolute flex gap-2 transform -translate-y-1/2 left-5 right-5 bottom-1">
+          <a href="#slide1" class="btn bg-black text-white btn-circle">❮</a> 
+          <a href="#slide3" class="btn bg-black text-white btn-circle">❯</a>
+        </div>
+         <!-- container -->
+         <div class="bg-black space-y-3 lg:space-y-6 text-white absolute lg:w-[502px] rounded-2xl p-8 -bottom-44 lg:bottom-8 lg:right-8">
+          <h1 class="text-2xl font-extrabold">Meet all the heroes from the field</h1>
+          <p class="font-medium  text-secondary">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+        </div>
 
-
-
+      </div> 
+      <!-- slide 3 -->
+      <div id="slide3" class="carousel-item relative w-full">
+          <img src="Images/cup.jpg" class="w-full rounded-2xl" alt="">
+        <div class="absolute flex gap-2 transform -translate-y-1/2 left-5 right-5 bottom-1">
+          <a href="#slide2" class="btn bg-black text-white btn-circle">❮</a> 
+          <a href="#slide1" class="btn bg-black text-white btn-circle">❯</a>
+        </div>
+         <!-- container -->
+          <div class="bg-black space-y-3 lg:space-y-6 text-white absolute lg:w-[502px] rounded-2xl p-8 -bottom-44 lg:bottom-8 lg:right-8">
+            <h1 class="text-2xl font-extrabold">Meet all the heroes from the field</h1>
+            <p class="font-medium  text-secondary">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+          </div>
+      </div> 
+     </div>
+     <!-- slider part end -->
+     <div class=" mt-20 border-border border-y-2 h-[1px] border  border-dashed"></div>
 
 </header>
   <!-- header part end-->
 
 
 <!-- main part start -->
-<main>
+<main  class=" md:container md:mx-auto">
+   <!-- hockey club section start -->
+      <div class="text-center my-10 space-y-6">
+        <h1 class="text-4xl font-extrabold">Professional Hockeys Club</h1>
+        <p class="font-medium">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis <br> placerat dolor. Purus urna in sit nullam proin. </p>
+      </div>
+      <div class="border-border border-y-2  h-[1px] border  border-dashed"></div>
+   <!-- hockey club section end -->
+   <div class="flex flex-col justify-evenly lg:flex-row gap-7 text-center mt-10">
+    <!-- progress 1 -->
+<div>
+  <div class="radial-progress text-red-500" style="--value:87;" role="progressbar">87%</div>
+  <h3 class="my-3 text-xl font-semibold">Prayer Facility</h3>
+  <p class="font-medium">Amet consectetur. Condimentum  <br> dignissim adipiscing .</p>
+</div>   
+<!-- progress 2 -->
+<div>
+  <div class="radial-progress text-green-500" style="--value:95;" role="progressbar">95%</div>
+  <h3 class="my-3 text-xl font-semibold">Experienced Coach</h3>
+  <p class="font-medium">Amet consectetur. Condimentum  <br> dignissim adipiscing .</p>
+</div>   
+<!-- progress 3 -->
+<div>
+  <div class="radial-progress text-yellow-400" style="--value:90;" role="progressbar">90%</div>
+  <h3 class="my-3 text-xl font-semibold">Senior Player</h3>
+  <p class="font-medium">Amet consectetur. Condimentum  <br> dignissim adipiscing .</p>
+</div>   
+<!-- progress 4 -->
+<div>
+  <div class="radial-progress text-blue-500" style="--value:80;" role="progressbar">80%</div>
+  <h3 class="my-3 text-xl font-semibold">Training Ground</h3>
+  <p class="font-medium">Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
+</div>   
+</div>
+<div class=" mt-20 border-border border-y-2 h-[1px] border  border-dashed"></div>
+   
+<!-- program section  -->
+<div class="text-center my-10 space-y-6">
+  <h1 class="text-4xl font-extrabold">Program Sections</h1>
+  <p class="font-medium">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis<br> placerat  dolor. Purus urna in sit nullam proin. </p>
+</div>
+<div class="border-border border-y-2  h-[1px] border  border-dashed"></div>
+<!-- program image section start -->
 
 
+
+
+
+
+
+
+<!-- program image section end -->
+<!-- new product section  -->
+<div class="text-center my-10 space-y-6">
+  <h1 class="text-4xl font-extrabold">Our New Products</h1>
+  <p class="font-medium">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis<br> placerat  dolor. Purus urna in sit nullam proin. </p>
+</div>
+<div class="border-border border-y-2  h-[1px] border  border-dashed"></div>
 </main>
 <!-- main part end -->
 
@@ -93,6 +196,6 @@ crossorigin="anonymous"
 <!-- footer part end -->
 
 
-    <h1 class="text-orange-700 text-6xl font-extrabold">hello</h1>
+  
 </body>
 </html>
