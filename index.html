@@ -26,8 +26,14 @@ crossorigin="anonymous"
             clifford: '#da373d',
             'primary': '#FF4240',
             'secondary': '#FFFFFF99',
-            'border': '#13131833',
-          }
+            'border': '#13131880',
+          },
+          backgroundImage: {
+                        'program-section-col-1': "linear-gradient(rgba(19, 19, 24, 0.50) 50%, rgba(19, 19, 24, 0.50) 50%),url('./Images/2.png')",
+                        'program-section-col-2': "linear-gradient(rgba(19, 19, 24, 0.50) 50%, rgba(19, 19, 24, 0.50) 50%),url('./Images/3.png')",
+                        'program-section-row-2': "linear-gradient(rgba(19, 19, 24, 0.50) 50%, rgba(19, 19, 24, 0.50) 50%),url('./Images/4.png')"
+                    }
+
         }
       }
     }
@@ -37,6 +43,7 @@ crossorigin="anonymous"
       font-family: 'Manrope', sans-serif;
     }
   </style>
+  </head>
 <body class="font-manrope">
   <!-- header part start-->
 <header class=" md:container md:mx-auto">
@@ -120,7 +127,7 @@ crossorigin="anonymous"
       </div> 
      </div>
      <!-- slider part end -->
-     <div class=" mt-20 border-border border-y-2 h-[1px] border  border-dashed"></div>
+     <div class=" mt-20 border-border  h-[1px] border  border-dashed"></div>
 
 </header>
   <!-- header part end-->
@@ -133,66 +140,436 @@ crossorigin="anonymous"
         <h1 class="text-4xl font-extrabold">Professional Hockeys Club</h1>
         <p class="font-medium">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis <br> placerat dolor. Purus urna in sit nullam proin. </p>
       </div>
-      <div class="border-border border-y-2  h-[1px] border  border-dashed"></div>
+      <div class="border-border   h-[1px] border  border-dashed"></div>
    <!-- hockey club section end -->
    <div class="flex flex-col justify-evenly lg:flex-row gap-7 text-center mt-10">
     <!-- progress 1 -->
 <div>
-  <div class="radial-progress text-red-500" style="--value:87;" role="progressbar">87%</div>
+  <div class="radial-progress text-red-500" style="--value:87;" role="progressbar"><h1 class="text-black font-extrabold text-xl">87%</h1></div>
   <h3 class="my-3 text-xl font-semibold">Prayer Facility</h3>
   <p class="font-medium">Amet consectetur. Condimentum  <br> dignissim adipiscing .</p>
 </div>   
 <!-- progress 2 -->
 <div>
-  <div class="radial-progress text-green-500" style="--value:95;" role="progressbar">95%</div>
+  <div class="radial-progress text-green-500" style="--value:95;" role="progressbar"><h1 class="text-black font-extrabold text-xl">95%</h1></div>
   <h3 class="my-3 text-xl font-semibold">Experienced Coach</h3>
   <p class="font-medium">Amet consectetur. Condimentum  <br> dignissim adipiscing .</p>
 </div>   
 <!-- progress 3 -->
 <div>
-  <div class="radial-progress text-yellow-400" style="--value:90;" role="progressbar">90%</div>
+  <div class="radial-progress text-yellow-400" style="--value:90;" role="progressbar"><h1 class="text-black font-extrabold text-xl">90%</h1></div>
   <h3 class="my-3 text-xl font-semibold">Senior Player</h3>
   <p class="font-medium">Amet consectetur. Condimentum  <br> dignissim adipiscing .</p>
 </div>   
 <!-- progress 4 -->
 <div>
-  <div class="radial-progress text-blue-500" style="--value:80;" role="progressbar">80%</div>
+  <div class="radial-progress text-blue-500" style="--value:80;" role="progressbar"><h1 class="text-black font-extrabold text-xl">80%</h1></div>
   <h3 class="my-3 text-xl font-semibold">Training Ground</h3>
   <p class="font-medium">Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
 </div>   
 </div>
-<div class=" mt-20 border-border border-y-2 h-[1px] border  border-dashed"></div>
+<div class=" mt-20 border-border  h-[1px] border  border-dashed"></div>
    
 <!-- program section  -->
 <div class="text-center my-10 space-y-6">
   <h1 class="text-4xl font-extrabold">Program Sections</h1>
   <p class="font-medium">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis<br> placerat  dolor. Purus urna in sit nullam proin. </p>
 </div>
-<div class="border-border border-y-2  h-[1px] border  border-dashed"></div>
+<div class="border-border   h-[1px] border  border-dashed"></div>
 <!-- program image section start -->
 
-
-
-
-
-
-
-
+<section class="grid gird-cols-1 lg:grid-cols-2 gap-6 text-white mt-12">
+  <!-- first row col-1  -->
+  <div class="bg-program-section-col-1   bg-no-repeat bg-cover rounded-xl px-6 py-10 lg:pt-32">
+      <h1 class="text-3xl font-extrabold ">Junior Program</h1>
+      <p class="lg:text-xs my-4">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit <br>
+        enim sagittis turpis in magna. Id et sed euismod natoque amet <br> nunc morbi nulla. Tortor congue sed et in.</p>
+        <button class="btn bg-primary text-xl font-bold text-white hover:bg-black border-none ">Register Now!</button>
+  </div>
+  <!-- first row col-2  -->
+  <div class="bg-program-section-col-2  bg-no-repeat bg-cover rounded-xl px-6 py-10 lg:pt-32">
+    <h1 class="text-3xl font-extrabold ">Teenager Program</h1>
+    <p class="lg:text-xs my-4">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit <br>
+      enim sagittis turpis in magna. Id et sed euismod natoque amet <br> nunc morbi nulla. Tortor congue sed et in.</p>
+      <button class="btn bg-primary text-xl font-bold text-white hover:bg-black border-none ">Register Now!</button>
+</div>
+</section>
+<!-- second row  -->
+<section class="mt-6 text-white">
+  <div class="bg-program-section-row-2  bg-no-repeat bg-cover rounded-xl px-6 py-10 lg:pt-32">
+    <h1 class="text-3xl font-extrabold ">Professional Program</h1>
+    <p class="lg:text-xs my-4">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit <br>
+      enim sagittis turpis in magna. Id et sed euismod natoque amet <br> nunc morbi nulla. Tortor congue sed et in.</p>
+      <button class="btn bg-primary text-xl font-bold text-white hover:bg-black border-none ">Register Now!</button>
+</div>
+</section>
 <!-- program image section end -->
+<div class=" mt-20 border-border  h-[1px] border  border-dashed"></div>
+
+
 <!-- new product section  -->
 <div class="text-center my-10 space-y-6">
   <h1 class="text-4xl font-extrabold">Our New Products</h1>
   <p class="font-medium">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis<br> placerat  dolor. Purus urna in sit nullam proin. </p>
 </div>
-<div class="border-border border-y-2  h-[1px] border  border-dashed"></div>
+<div class="border-border   h-[1px] border  border-dashed"></div>
+ <!-- card section start  -->
+<section class="mt-6 lg:mt-12 mb-20 grid grid-cols-1 lg:grid-cols-2 gap-6">
+  <!-- card-1  -->
+  <div
+  class="flex flex-col lg:flex-row w-full h-[550px] lg:h-[218px] bg-base-100 border-[1px] border-card-border rounded-2xl">
+  <figure class="p-6"><img src="Images/5.png" alt="Shoes"
+          class="h-[250px] lg:h-full w-full lg:w-[180px]" /></figure>
+
+  <div class="px-6 lg:px-0 lg:pt-6">
+      <p class="text-base font-medium text-border space-x-4">
+          <span><i class="fa-solid fa-star text-yellow-400"></i>&nbsp; &nbsp;5.0</span>
+          <span><i class="fa-regular fa-eye"></i>&nbsp; &nbsp;20</span>
+          <span><i class="fa-regular fa-heart"></i>&nbsp; &nbsp;200</span>
+      </p>
+      <h1 class="text-xl font-extrabold my-[13px]">World Cup Flags Football</h1>
+      <p class="text-base font-medium text-border leading-6">Dolor sit amet consectetur. Ut urna
+          diam quis sagittis. </p>
+      <div class="flex flex-col lg:flex-row lg:items-center gap-4 lg:gap-5 mt-4">
+          <h3 class="text-lg text-[#FF4240] font-extrabold">Price - $22.00</h3>
+          <p class="text-base font-medium text-border"><i
+                  class="fa-solid fa-cart-shopping "></i>&nbsp; &nbsp;Delivery Fee : Free</p>
+      </div>
+  </div>
+</div>
+  <!-- card-2  -->
+  <div
+  class="flex flex-col lg:flex-row w-full h-[550px] lg:h-[218px] bg-base-100 border-[1px] border-card-border rounded-2xl">
+  <figure class="p-6"><img src="Images/6.png" alt="Shoes"
+          class="h-[250px] lg:h-full w-full lg:w-[180px]" /></figure>
+
+  <div class="px-6 lg:px-0 lg:pt-6">
+      <p class="text-base font-medium text-border space-x-4">
+          <span><i class="fa-solid fa-star text-yellow-400"></i>&nbsp; &nbsp;5.0</span>
+          <span><i class="fa-regular fa-eye"></i>&nbsp; &nbsp;20</span>
+          <span><i class="fa-regular fa-heart"></i>&nbsp; &nbsp;200</span>
+      </p>
+      <h1 class="text-xl font-extrabold my-[13px]">World Cup Flags Football</h1>
+      <p class="text-base font-medium text-border leading-6">Dolor sit amet consectetur. Ut urna
+          diam quis sagittis. </p>
+      <div class="flex flex-col lg:flex-row lg:items-center gap-4 lg:gap-5 mt-4">
+          <h3 class="text-lg text-[#FF4240] font-extrabold">Price - $22.00</h3>
+          <p class="text-base font-medium text-border"><i
+                  class="fa-solid fa-cart-shopping "></i>&nbsp; &nbsp;Delivery Fee : Free</p>
+      </div>
+  </div>
+</div>
+  <!-- card-3  -->
+  <div
+  class="flex flex-col lg:flex-row w-full h-[550px] lg:h-[218px] bg-base-100 border-[1px] border-card-border rounded-2xl">
+  <figure class="p-6"><img src="Images/7.png" alt="Shoes"
+          class="h-[250px] lg:h-full w-full lg:w-[180px]" /></figure>
+
+  <div class="px-6 lg:px-0 lg:pt-6">
+      <p class="text-base font-medium text-border space-x-4">
+          <span><i class="fa-solid fa-star text-yellow-400"></i>&nbsp; &nbsp;5.0</span>
+          <span><i class="fa-regular fa-eye"></i>&nbsp; &nbsp;20</span>
+          <span><i class="fa-regular fa-heart"></i>&nbsp; &nbsp;200</span>
+      </p>
+      <h1 class="text-xl font-extrabold my-[13px]">World Cup Flags Football</h1>
+      <p class="text-base font-medium text-border leading-6">Dolor sit amet consectetur. Ut urna
+          diam quis sagittis. </p>
+      <div class="flex flex-col lg:flex-row lg:items-center gap-4 lg:gap-5 mt-4">
+          <h3 class="text-lg text-[#FF4240] font-extrabold">Price - $22.00</h3>
+          <p class="text-base font-medium text-border"><i
+                  class="fa-solid fa-cart-shopping "></i>&nbsp; &nbsp;Delivery Fee : Free</p>
+      </div>
+  </div>
+</div>
+  <!-- card-4  -->
+  <div
+  class="flex flex-col lg:flex-row w-full h-[550px] lg:h-[218px] bg-base-100 border-[1px] border-card-border rounded-2xl">
+  <figure class="p-6"><img src="Images/8.png" alt="Shoes"
+          class="h-[250px] lg:h-full w-full lg:w-[180px]" /></figure>
+
+  <div class="px-6 lg:px-0 lg:pt-6">
+      <p class="text-base font-medium text-border space-x-4">
+          <span><i class="fa-solid fa-star text-yellow-400"></i>&nbsp; &nbsp;5.0</span>
+          <span><i class="fa-regular fa-eye"></i>&nbsp; &nbsp;20</span>
+          <span><i class="fa-regular fa-heart"></i>&nbsp; &nbsp;200</span>
+      </p>
+      <h1 class="text-xl font-extrabold my-[13px]">World Cup Flags Football</h1>
+      <p class="text-base font-medium text-border leading-6">Dolor sit amet consectetur. Ut urna
+          diam quis sagittis. </p>
+      <div class="flex flex-col lg:flex-row lg:items-center gap-4 lg:gap-5 mt-4">
+          <h3 class="text-lg text-[#FF4240] font-extrabold">Price - $22.00</h3>
+          <p class="text-base font-medium text-border"><i
+                  class="fa-solid fa-cart-shopping "></i>&nbsp; &nbsp;Delivery Fee : Free</p>
+      </div>
+  </div>
+</div>
+  <!-- card-5  -->
+  <div
+  class="flex flex-col lg:flex-row w-full h-[550px] lg:h-[218px] bg-base-100 border-[1px] border-card-border rounded-2xl">
+  <figure class="p-6"><img src="Images/9.png" alt="Shoes"
+          class="h-[250px] lg:h-full w-full lg:w-[180px]" /></figure>
+
+  <div class="px-6 lg:px-0 lg:pt-6">
+      <p class="text-base font-medium text-border space-x-4">
+          <span><i class="fa-solid fa-star text-yellow-400"></i>&nbsp; &nbsp;5.0</span>
+          <span><i class="fa-regular fa-eye"></i>&nbsp; &nbsp;20</span>
+          <span><i class="fa-regular fa-heart"></i>&nbsp; &nbsp;200</span>
+      </p>
+      <h1 class="text-xl font-extrabold my-[13px]">World Cup Flags Football</h1>
+      <p class="text-base font-medium text-border leading-6">Dolor sit amet consectetur. Ut urna
+          diam quis sagittis. </p>
+      <div class="flex flex-col lg:flex-row lg:items-center gap-4 lg:gap-5 mt-4">
+          <h3 class="text-lg text-[#FF4240] font-extrabold">Price - $22.00</h3>
+          <p class="text-base font-medium text-border"><i
+                  class="fa-solid fa-cart-shopping "></i>&nbsp; &nbsp;Delivery Fee : Free</p>
+      </div>
+  </div>
+</div>
+  <!-- card-6  -->
+  <div
+  class="flex flex-col lg:flex-row w-full h-[550px] lg:h-[218px] bg-base-100 border-[1px] border-card-border rounded-2xl">
+  <figure class="p-6"><img src="Images/10.png" alt="Shoes"
+          class="h-[250px] lg:h-full w-full lg:w-[180px]" /></figure>
+
+  <div class="px-6 lg:px-0 lg:pt-6">
+      <p class="text-base font-medium text-border space-x-4">
+          <span><i class="fa-solid fa-star text-yellow-400"></i>&nbsp; &nbsp;5.0</span>
+          <span><i class="fa-regular fa-eye"></i>&nbsp; &nbsp;20</span>
+          <span><i class="fa-regular fa-heart"></i>&nbsp; &nbsp;200</span>
+      </p>
+      <h1 class="text-xl font-extrabold my-[13px]">World Cup Flags Football</h1>
+      <p class="text-base font-medium text-border leading-6">Dolor sit amet consectetur. Ut urna
+          diam quis sagittis. </p>
+      <div class="flex flex-col lg:flex-row lg:items-center gap-4 lg:gap-5 mt-4">
+          <h3 class="text-lg text-[#FF4240] font-extrabold">Price - $22.00</h3>
+          <p class="text-base font-medium text-border"><i
+                  class="fa-solid fa-cart-shopping "></i>&nbsp; &nbsp;Delivery Fee : Free</p>
+      </div>
+  </div>
+</div>
+</section>
+ <!-- card section end  -->
+ <div class=" mt-20 border-border  h-[1px] border  border-dashed"></div>
+
+ <!-- Clients Question start -->
+
+
+ <div class="text-center my-10 space-y-6">
+  <h1 class="text-4xl font-extrabold">Clients Question</h1>
+  <p class="font-medium">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis <br> placerat dolor. Purus urna in sit nullam proin. </p>
+</div>
+<div class="border-border   h-[1px] border  border-dashed"></div>
+
+<!-- image and accordian section  -->
+<section class="flex flex-col lg:flex-row gap-10 p-2 lg:p-5 mt-10 border bg-base-100 rounded-2xl">
+<div>
+  <img class="w-full lg:w-[441px] lg:h-[470px] justify-center" src="Images/11.png" alt="">
+</div>
+<div class="flex-1 ">
+
+      <!-- question-1  -->
+  <div class="collapse collapse-plus ">
+    <input type="radio" name="my-accordion-3" checked="checked" /> 
+    <div class="collapse-title text-xl font-bold">
+      Our Equipment
+    </div>
+    <div class="collapse-content"> 
+      <p class=" text-border ">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim <br> sagittis turpis in magna.</p>
+    </div>
+  </div>
+      <!-- question-2  -->
+  <div class="collapse collapse-plus ">
+    <input type="radio" name="my-accordion-3" /> 
+    <div class="collapse-title text-xl font-bold">
+      Hockey Training
+    </div>
+    <div class="collapse-content"> 
+      <p>hello</p>
+    </div>
+  </div>
+      <!-- question-3  -->
+  <div class="collapse collapse-plus ">
+    <input type="radio" name="my-accordion-3" /> 
+    <div class="collapse-title text-xl font-bold">
+      Private Lessons
+    </div>
+    <div class="collapse-content"> 
+      <p>hello</p>
+    </div>
+  </div>
+    <!-- question-4  -->
+  <div class="collapse collapse-plus ">
+    <input type="radio" name="my-accordion-3" /> 
+    <div class="collapse-title text-xl font-bold">
+      Ski Touring
+    </div>
+    <div class="collapse-content"> 
+      <p>hello</p>
+    </div>
+  </div>
+    <!-- question-5  -->
+  <div class="collapse collapse-plus ">
+    <input type="radio" name="my-accordion-3" /> 
+    <div class="collapse-title text-xl font-bold">
+      Booking
+    </div>
+    <div class="collapse-content"> 
+      <p>hello</p>
+    </div>
+  </div>
+  <!-- question-6  -->
+  <div class="collapse collapse-plus ">
+    <input type="radio" name="my-accordion-3" /> 
+    <div class="collapse-title text-xl font-bold">
+      Pricings
+    </div>
+    <div class="collapse-content"> 
+      <p>hello</p>
+    </div>
+  </div>
+</div>
+</section>
+
+ <!-- Clients Question end -->
+ <div class=" mt-20 border-border  h-[1px] border  border-dashed"></div>
+
+<!-- get in touch start  -->
+<div class="text-center my-10 space-y-6">
+  <h1 class="text-4xl font-extrabold">Get In Touch</h1>
+  <p class="font-medium">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis <br> placerat dolor. Purus urna in sit nullam proin. </p>
+</div>
+<div class="border-border   h-[1px] border  border-dashed"></div>
+
+
+<section class="flex flex-col lg:flex-row gap-6 my-10 lg:my-12">
+  <!-- card section start -->
+  <section
+      class="w-full lg:w-[510px]  p-6 lg:p-[50px] border-[1px] border-card-border rounded-2xl space-y-4 lg:space-y-6">
+      <!-- 1st card  -->
+      <div class="bg-[#BCED6D1A]  p-8 rounded-2xl">
+          <img src="Images/Group 1171275317.png" alt="" class="w-12 h-12 mb-6">
+          <p class="text-[#717177] font-normal text-base">Phone Number :</p>
+          <h3 class="font-extrabold text-lg text-[#131318] leading-8">
+              (+62) 123-321-543
+          </h3>
+      </div>
+<!-- 2nd card  -->
+      <div class="bg-[#FDDD5F1A] p-8 rounded-2xl">
+          <img src="Images/Group 1171275318.png" alt="" class="w-12 h-12 mb-6">
+          <p class="text-[#717177] font-normal text-base">Email : </p>
+          <h3 class="font-extrabold text-lg text-[#131318] leading-8">
+              hockeys@support.com
+          </h3>
+      </div>
+<!-- 3rd card  -->
+      <div class="bg-[#629CF31A] p-8 rounded-2xl">
+          <img src="Images/Group 1171275321.png" alt="" class="w-12 h-12 mb-6">
+          <p class="text-[#717177] font-normal text-base">Location : </p>
+          <h3 class="font-extrabold text-lg text-[#131318] leading-8">
+              152/1 Mohakhali Wireless Gate
+          </h3>
+      </div>
+  </section>
+  <!-- card section end -->
+
+  <!-- form section start -->
+  <section class="w-full  p-2 ">
+      <div class="flex flex-col lg:flex-row gap-5 lg:gap-6">
+          <div class="w-full ">
+              <h1 class="text-xl text-[#131318] font-bold mb-4">Your Name</h1>
+              <input class="p-5 w-full bg-[#13131808] rounded-xl" type="text"
+                  placeholder="Enter your full name">
+          </div>
+          <div class="w-full">
+              <h1 class="text-xl text-[#131318] font-bold mb-4">Your Email</h1>
+              <input class="p-5 w-full bg-[#13131808] rounded-xl" type="email"
+                  placeholder="Enter your email">
+          </div>
+      </div>
+
+      <div class="flex flex-col lg:flex-row gap-5 lg:gap-6 my-5 lg:my-6">
+          <div class="w-full ">
+              <h1 class="text-xl text-[#131318] font-bold mb-4">Subject</h1>
+              <input class="p-5 w-full bg-[#13131808] rounded-xl" type="text"
+                  placeholder="Enter your subject">
+          </div>
+          <div class="w-full">
+              <h1 class="text-xl text-[#131318] font-bold mb-4">Phone Number</h1>
+              <input class="p-5 w-full bg-[#13131808] rounded-xl" type="number"
+                  placeholder="Enter your phone number">
+          </div>
+      </div>
+
+      <div class="">
+          <h1 class="text-xl text-[#131318] font-bold mb-4">Message</h1>
+          <textarea class="p-8 w-full h-[200px] lg:h-[355px] bg-[#13131808] rounded-xl"
+              placeholder="Write your message"></textarea>
+
+      </div>
+
+      <button class="mt-6 lg:mt-8 w-full py-4 bg-primary rounded-xl text-xl font-bold text-[#FFF]">Send
+          Message</button>
+
+  </section>
+  <!-- form section end -->
+</section>
+<!-- get in touch end -->
+
+  <!-- social media section start -->
+  <section class="text-center w-full  bg-[#13131808] rounded-xl p-5">
+    <h1 class="text-2xl text-[#131318] font-extrabold pt-9">Social Media</h1>
+    <div class="space-x-6 text-2xl mt-4">
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-github"></i>
+    </div>
+
+
+</section>
 </main>
 <!-- main part end -->
 
 <!-- footer part start-->
-<footer>
+<footer
+class="text-center lg:text-left flex flex-col lg:flex-row gap-10 lg:gap-[158px] h-[869px] lg:h-[454px] px-10 lg:px-[135px] py-10 lg:py-[100px] bg-[#131318] text-secondary text-base mt-10">
+<div>
+    <h1 class="mb-4 text-2xl lg:text-[28px] text-white font-extrabold ">Get In Touch</h1>
+    <p class="mb-6 lg:w-[346px] text-base font-medium leading-6">Dit amet consectetur. Condimentum adipiscing
+        aliquam turpis placerat dolor. Purus urna in sit nullam
+        proin. </p>
+    <h3 class="mb-[18px]"><i class="fa-regular fa-envelope text-red-500"></i>&nbsp; &nbsp;hockeys@support.com
+    </h3>
+    <h3><i class="fa-solid fa-phone text-red-500"></i> (+62) 123-321-543</h3>
 
-
+</div>
+<div class="ml-10 lg:ml-0 flex gap-10 lg:gap-[158px]">
+    <nav class="flex flex-col space-y-4">
+        <header class="mb-[15px] text-lg text-white font-bold">Company</header>
+        <a class="link link-hover">About us</a>
+        <a class="link link-hover">Leadership</a>
+        <a class="link link-hover">Careers</a>
+        <a class="link link-hover">News & Article</a>
+        <a class="link link-hover">Legal Notice</a>
+    </nav>
+    <nav class="flex flex-col space-y-4">
+        <header class="mb-[15px] text-lg text-white font-bold">Support</header>
+        <a class="link link-hover">Help Center</a>
+        <a class="link link-hover">FAQ</a>
+        <a class="link link-hover">Ticket Support</a>
+        <a class="link link-hover">Contact Us</a>
+    </nav>
+</div>
+<nav class="flex flex-col space-y-4">
+    <header class="mb-[15px] text-lg text-white font-bold">Services</header>
+    <a class="link link-hover">Academy</a>
+    <a class="link link-hover">Group Lesson</a>
+    <a class="link link-hover">Private Lesson</a>
+    <a class="link link-hover">Hockeys for kids</a>
+    <a class="link link-hover">Hockeys for Adult</a>
+</nav>
 </footer>
+
 <!-- footer part end -->
 
 
